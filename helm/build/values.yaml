@@ -1,0 +1,15 @@
+app:
+  name: nkendyal10-poi-backend-app
+  namespace: nkendyal10
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/nkendyal10-backend
+  org: rhdh-atl
+  name: nkendyal10-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: nkendyal10/poi-backend-app
+  tag: latest
